@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, getDoc, addDoc, updateDoc, deleteDoc, doc } from "firebase/firestore/lite";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAqJjX5cyg4engd16MNphZTLNIGRaNhjAI",
-  authDomain: "wedding-c0584.firebaseapp.com",
-  projectId: "wedding-c0584",
-  storageBucket: "wedding-c0584.appspot.com",
-  messagingSenderId: "755207009477",
-  appId: "1:755207009477:web:d4b149a632c88f7af02cac",
+  apiKey: "AIzaSyB3u2v-zJs1WLxX1oDqDCaUvDS6aNKvqNw",
+  authDomain: "wedding-hp-b0f3f.firebaseapp.com",
+  projectId: "wedding-hp-b0f3f",
+  storageBucket: "wedding-hp-b0f3f.appspot.com",
+  messagingSenderId: "209575657058",
+  appId: "1:209575657058:web:1ed911deacc3ae9afb5b3b"
 };
 
 // Initialize Firebase
@@ -15,7 +15,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 export default class FirebaseService {
-  constructor() {}
+  constructor() { }
 
   async getAllInvitations() {
     let snapshots = await getDocs(collection(db, "Invitations"));

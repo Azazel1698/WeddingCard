@@ -97,7 +97,7 @@ export default function Landing(props) {
                   wordSpacing: "2px",
                 }}
               >
-                17 . 04 . 24
+                25 . 04 . 24
               </div>
             </div>
 

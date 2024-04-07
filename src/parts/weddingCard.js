@@ -36,7 +36,7 @@ export function WeddingCard(props) {
         <Box display="flex" flexDirection={"column"} justifyContent="center" alignItems="center">
           <iframe
             title="map-to-venue"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6365.13698448108!2d105.82689714171673!3d20.96945411566573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acf8cb3861d9%3A0xd294605a751a1c4a!2zS2jDoWNoIHPhuqFuIE3GsOG7nW5nIFRoYW5oIEdyYW5kIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1710251388680!5m2!1svi!2s"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14912.922964460098!2d106.6922732!3d20.8627479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7be3b26b7f15%3A0xfb767616d10e5e50!2zVHJ1bmcgdMOibSB0aeG7h2MgY8aw4bubaSBI4bqjaSDEkMSDbmcgUGxhemEgSOG6o2kgUGjDsm5n!5e0!3m2!1svi!2s!4v1712461677729!5m2!1svi!2s"
             width="100%"
             height="200px"
             style={{ border: 0 }}
@@ -83,7 +83,7 @@ export function WeddingCard(props) {
                   alignItems="center"
                 >
                   <p className="h3-title" style={h2Style}>
-                    11 giờ 30'
+                    17 giờ 30'
                   </p>
                 </Box>
               </Grid>
@@ -100,7 +100,7 @@ export function WeddingCard(props) {
                   alignItems="center"
                 >
                   <p className="h3-title" style={{ ...h2Style }}>
-                    Thứ tư
+                    Thứ năm
                   </p>
                 </Box>
               </Grid>
@@ -115,7 +115,7 @@ export function WeddingCard(props) {
                   alignItems="center"
                 >
                   <p className="h3-title" style={{ ...h2Style }}>
-                    17. 04. 2024
+                    25. 04. 2024
                   </p>
                 </Box>
               </Grid>
@@ -125,10 +125,10 @@ export function WeddingCard(props) {
             tại: Trung tâm tiệc cưới{" "}
           </p>
           <h1 className="sub-title" style={{ ...h1Style, marginBottom: "15px" }}>
-            Mường Thanh Grand
+            Hải Đăng Plaza Hải Phòng
           </h1>
           <p className="h3-title" style={pStyle}>
-            CC2 Linh Đàm, Hoàng Mai, Hà Nội
+            19 P. Trần Khánh Dư, Ngô Quyền, Hải Phòng
           </p>
         </Box>
       </Grid>
